@@ -1,0 +1,29 @@
+﻿
+body{
+
+}
+
+nav{
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+ul.top-nav{
+  display: grid;
+  grid-template-columns: 70px 70px auto 70px 70px 70px;
+}
+
+.app-img{
+  display: inline-block;
+}
+
+
+
+
