@@ -4,7 +4,7 @@
 
 main{
   font: 14px arial, sans-serif;
-  height: 41.5em;
+  
 }
 
 body{
@@ -21,7 +21,7 @@ li{
 }
 
 ul{
-  font: .8em arial, sans-serif;
+  font: 1em arial, sans-serif;
 }
 
 a{
@@ -34,6 +34,10 @@ footer{
   height: 3em;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
@@ -47,8 +51,12 @@ footer{
 .bottom-nav{
   display: grid;
   margin: 1em 1em 0 1em;
-  padding: 0.5em 1em 0 1em;
+  padding: 0.5em 1em 1em 1em;
   grid-template-columns: 7em 6em 10em auto 6em 6em 6em;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
