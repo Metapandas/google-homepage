@@ -1,6 +1,14 @@
-﻿
-body{
+﻿main{
+  height: 660px;
+}
 
+body{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 nav{
@@ -10,18 +18,41 @@ li{
   list-style: none;
 }
 
+ul{
+  
+  font: 13px arial, sans-serif;
+}
+
 a{
   text-decoration: none;
 }
 
+footer{
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  height: 55px;
+  margin: 0;
+  padding: 0;
+}
 
-ul.top-nav{
+
+.top-nav{
+  margin: 10px;
+  padding: 10px;
   display: grid;
-  grid-template-columns: 70px 70px auto 70px 70px 70px;
+  grid-template-columns: 80px 80px auto 80px 80px 80px 80px;
+}
+
+.bottom-nav{
+  display: grid;
+  margin: 10px;
+  padding: 10px;
+  grid-template-columns: 100px 80px 150px auto 80px 80px 80px;
 }
 
 .app-img{
   display: inline-block;
+  height: 30px;
 }
 
 
