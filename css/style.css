@@ -65,6 +65,17 @@ footer{
   height: 1.8em;
 }
 
+div.logo{
+  text-align: center;
+}
+
+.logo-img{
+  width: 35%;
+  height: 45%;
+  display: inline-block;
+  padding: 10em 0 0 0;
+}
+
 
 
 
