@@ -76,6 +76,53 @@ div.logo{
   padding: 10em 0 0 0;
 }
 
+div.search-bar{
+  text-align: center;
+  padding: 3em;
+}
+
+.round {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid #dfe1e5;
+  padding: 1em 1em 1em 2em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+  width: 65%;
+  height: 20%;
+}
+
+.buttons{
+  display:block;
+  color: rgb(7, 5, 5);
+  text-decoration: none;
+  margin: 5em auto;
+  
+
+}
+
+.search-button{
+  display:inline;
+  margin-right: 3em;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 1em;
+}
+
+.lucky-button{
+  display:inline;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 1em;
+}
+
 
 
 
